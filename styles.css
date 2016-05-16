@@ -10,6 +10,8 @@ body {
   display: flex;
   height: 600px;
   background-color: red;
+  flex: row wrap;
+  justify-content: space-around;
 }
 .content{
   display: flex;
@@ -17,4 +19,13 @@ body {
   width: 200px;
   margin: auto;
   background-color: white;
+}
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  line-height: 200px;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bolder;
 }
