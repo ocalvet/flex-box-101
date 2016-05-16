@@ -10,7 +10,7 @@ body {
   display: flex;
   height: 600px;
   background-color: red;
-  flex: row wrap;
+  flex-direction: column;
   justify-content: space-around;
 }
 .content{
@@ -22,9 +22,9 @@ body {
 }
 .child {
   width: 200px;
-  height: 200px;
+  height: 50px;
   background-color: white;
-  line-height: 200px;
+  line-height: 50px;
   text-align: center;
   font-size: 3em;
   font-weight: bolder;
